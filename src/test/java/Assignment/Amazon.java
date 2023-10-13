@@ -24,7 +24,6 @@ public class Amazon {
 
 //entering the url
 		driver.get("https://www.amazon.in/");
-		//driver.findElement(By.xpath()).sendKeys("mobile");
 		Thread.sleep(3000);
 		WebElement search = driver.findElement(By.id("twotabsearchtextbox"));
 		Actions a = new Actions(driver);
